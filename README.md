@@ -33,15 +33,14 @@ Importancia del lenguaje de ensamblador
 * Segmento Codigo(CS)
 * Segmento Pila(SS)
 * Segmento Datos(DS)
-- - - 
+- - -
+### Modos de direccionamiento
+Los modos de direccionamiento asigna memoria RAM en porciones que puede ser referenciadas individualmente para que CPU pueda determinar que ubicación de memoria se va a utilizar para cada instrucción. 
 
 
+### **Registros para trabajar**
 
-### **Comandos para trabajar**
-
-| Column 1 | Column 2 | Column 3 |
-| :------: | :------: | :------: |
-| Row 1, Column 1 | Row 1, Column 2 | Row 1, Column 3 |
-| Row 2, Column 1 | Row 2, Column 2 | Row 2, Column 3 |
-| Row 3, Column 1 | Row 3, Column 2 | Row 3, Column 3 |
+| AX | BX | CX | DX |
+| :------: | :------: | :------: | :------: |
+| Acumulador| Base | Counter | Datos |
 
