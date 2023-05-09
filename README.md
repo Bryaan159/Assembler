@@ -43,7 +43,7 @@ Los modos de direccionamiento asigna memoria RAM en porciones que puede ser refe
 | AX | BX | CX | DX |
 | :------: | :------: | :------: | :------: |
 | Acumulador| Base| Counter | Datos |
-| x | Segmento de datos | x | x |
+| x | Segmento de datos | x | Utilizado para almacenar datos y realizar operaciones aritméticas y lógicas. |
 
 -------
 ### Direccionamiento implicito
@@ -69,3 +69,41 @@ Es una situación especial que suspende la ejecución de un programa de modo que
 Tal situación se da, por ejemplo cuando un periferico requiere la atención de un programa.
 
 **Link**: http://arantxa.ii.uam.es/~gdrivera/labetcii/int_dos.htm
+
+**Link**:  http://ebadillo_computacion.tripod.com/ensamblador/8086_int.pdf
+
+**Link**: https://drive.google.com/drive/folders/1qeSgimLAaX1JK-CVfI9WQKUKI9TKlEMg
+
+## Pequeños codigos explicados
+```asm
+; MOV 21h funcion 01
+mov ah, 01h
+; mueve el 01h al ah
+
+int 21h
+; interrupcion de 21h
+
+; MOV 21h funcion 02
+mov ah, 02h
+mov al, 41h
+int 21h
+
+;label opdestino, operando fuente
+mov al, dx ; no se puede meter algo grande en algo pequeño
+
+mov dx, al ; si se puede meter algo pequeño en algo grande
+int 21h
+
+letrero = 'Hola mundo'
+
+mov ah, 09h
+lea dx, letrero
+int 21h
+
+;otra manera
+mov ah, 09h
+mov dx, offset letrero
+int 21h
+
+
+```
