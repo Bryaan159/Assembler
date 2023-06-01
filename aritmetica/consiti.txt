@@ -1,0 +1,41 @@
+Clase:Una clase es una plantilla que define la estructura y el comportamiento de un objeto. Es la representación abstracta
+de un concepto en particular y se utiliza para crear objetos.
+
+Instancia: es un objeto en particular creado a partir de una clase. Es una realización concreta de la estructura y el comporta-
+miento definido en una clase.
+
+Encapsulación: Es un principio de POO que combina datos y los métodos. Protege los datos de uan clase y controla su acceso al
+mundo exterior a través de interfaces definidas.
+
+Herencia:Es un mecanismo mediante el cual una clase puede heredear propiedades y comportamientos a otra clase.Permite la creación
+jerarquias de clases y la reutilización de código.
+
+Polimorfismo: Permite que que un objeto pueda presentarse en diferentes formas o tipos. Permite que objetos de diferentes clases sean tratados
+como si fueran del mismo tipo.
+
+Tablas de SQL
+Tecnologias
+Spring + Java
+Facturación electronica
+
+1. Luego de haber culminado el bootcamp que proceso continua en el ambito de reclutamiento laboral
+2. Si en el caso de haber ingresado como es la manera de pagar o cancelar NO
+3. Que proceso continua despues de esta llamada de meet
+---------------------------------------------
+* Bootcamp
+1 fase 3 meses
+Asignamos un programador Senior todos los dias
+para enseñarnos algo nuevo 
+Como ETL
+PL/SQL
+REST API
+* 2 fase practica 3 meses
+Programacion de requerimientos
+QA
+3 Fase
+Primer trabajo por $500.00
+
+Abstracción: es el proceso de identificar las caracteristicas esenciales de un objeto o sistema y representarlas de manera simplificada.
+DUI
+
+

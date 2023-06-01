@@ -1,0 +1,23 @@
+*Que representa un Jacobinano*
+Representa una matriz que contiene las derivadas parciales de una transformacion en un sistema de coordenadas es decir de (x,y)
+hacia el (e,n)
+
+---------------------------------------------------------------------------------
+Para qué se utiliza el Jacobiano en el MEF
+
+Se utiliza basicamente para transformar un sistema fisico a un sistema paramétrico de referencia en pocas palabras es para poder
+usar las funciones de forma y se encuentre derivadas por dEdN
+
+-------------------------------------------------------------------------------
+Para qué se llevó a cabo la interpolación de las variables espaciales X e Y
+
+Para aproximar los valores de las variables desconocidas dentro de cada elemento finito en el MEF
+Para aproximar los valores de las variables desconocidas dentro de cada elemento finito en el MEF
+Para aproximar los valores de las variables desconocidas dentro de cada elemento finito en el MEF
+Para aproximar los valores de las variables desconocidas dentro de cada elemento finito en el MEF es decir relaciona
+cada valor desconocido de los nodos con nuestra funciones de forma.
+
+--------------------------------------------------------------
+Isoparametrización
+Es el paso que nos permite la conversión de los triangulos individuales de las coordenadas X,Y al triangulo generico ya que en 
+1D era sencillo porque solo era una linea pero en 2D es basicamente tomar puntos de x e y pero ahora pudiendo manejarlos como e,n
