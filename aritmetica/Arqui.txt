@@ -1,0 +1,10 @@
+dato1 --> 4 --> Direccionamiento por registro BH
+dato2 --> 3 --> Direccionamiento indirecto AL [0200h]
+
+llamar a operacion Suma
+	dato 1 + dato 2
+Si resulta < 20
+Ir a Subrutina que sume 5 al resultado,
+vuelva a comparar y se mantenga ahi hasta 
+que sea mayor a 20
+Cuando cumpla mover el resultado a 210 h y "fin" a 220 h en adelante
