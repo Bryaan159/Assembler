@@ -8,3 +8,8 @@ Ir a Subrutina que sume 5 al resultado,
 vuelva a comparar y se mantenga ahi hasta 
 que sea mayor a 20
 Cuando cumpla mover el resultado a 210 h y "fin" a 220 h en adelante
+
+Fabricar un programa en ensamblador que arroje el factorial de un numero entero y positivo
+. El numero debe ser entero y positivo
+. El numero al que queremos encontrarle el factorial se guardara en la direccion 200h
+. El resultado de la operacion se guardara en la direccion 0210h en adelante.
