@@ -1,16 +1,21 @@
-;Factorial de un numero
+;Ejercicio 2 
     org 100h
-    section .text
+    section .txt
+    ; parte de codigo de Catedratica
+    MOV AX, 1d
+    MOV CX, [200h]
+    ; e200 para modificar dato a celda de memoria
+    call factorial
 
-;Entero y positivo
-    mov ax, 1d
-    ;No se ha guardado nada por el momento solo se llama la direccion 200h
-    mov cx, [200h]
-    
-    call Factorial
-Factorial: 
-    cmp cx, 1
+; Funcion factorial
+factorial:
+    cmp CX, 1
     jb end_factorial
 
-    imul ax,cx
-    sub 
+    imul AX, CX
+    sub CX, 1
+    jmp factorial
+
+end_factorial:
+    mov AX, 1d
+    int 20h
