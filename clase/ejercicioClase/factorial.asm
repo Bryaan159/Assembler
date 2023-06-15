@@ -3,7 +3,7 @@
     section .txt
     ; parte de codigo de Catedratica
     MOV AX, 1d
-    MOV CX, [200h]
+    MOV CX, 5d
     ; e200 para modificar dato a celda de memoria
     call factorial
 
